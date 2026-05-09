@@ -1,0 +1,20 @@
+from turtle import *
+t=Turtle()
+wn=Screen()
+wn.title("new test windows")
+wn.bgcolor("LightBlue")
+t.shape("turtle")
+t.color("red","green")
+t.speed(1)
+t.begin_fill()
+for i in range(4):
+    t.forward(100)
+    t.left(90)
+t.penup()
+t.forward(200)
+t.pendown()
+for i in range(4):
+    t.forward(100)
+    t.left(90)
+t.end_fill()
+done()
